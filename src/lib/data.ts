@@ -1,0 +1,74 @@
+import type { Product } from "./schemas";
+
+export const data: Product[] = [
+	{
+		id: 1,
+		brand_name: "BrandA",
+		price: 19.99,
+		currency: "EUR",
+		description: "High-quality product from BrandA.",
+	},
+	{
+		id: 2,
+		brand_name: "BrandB",
+		price: 25.5,
+		currency: "EUR",
+		description: "Stylish and durable item from BrandB.",
+	},
+	{
+		id: 3,
+		brand_name: "BrandC",
+		price: 15.0,
+		currency: "EUR",
+		description: "Affordable choice from BrandC.",
+	},
+	{
+		id: 4,
+		brand_name: "BrandD",
+		price: 99.99,
+		currency: "EUR",
+		description: "Premium product designed by BrandD.",
+	},
+	{
+		id: 5,
+		brand_name: "BrandE",
+		price: 40.0,
+		currency: "EUR",
+		description: "Innovative solution by BrandE.",
+	},
+	{
+		id: 6,
+		brand_name: "BrandF",
+		price: 7.49,
+		currency: "EUR",
+		description: "Budget-friendly item by BrandF.",
+	},
+	{
+		id: 7,
+		brand_name: "BrandG",
+		price: 150.0,
+		currency: "EUR",
+		description: "Luxury product from BrandG.",
+	},
+	{
+		id: 8,
+		brand_name: "BrandH",
+		price: 30.25,
+		currency: "EUR",
+		description: "Performance-driven item by BrandH.",
+	},
+	{
+		id: 9,
+		brand_name: "BrandI",
+		price: 22.99,
+		currency: "EUR",
+		description: "Versatile option by BrandI.",
+	},
+	{
+		id: 10,
+		brand_name: "BrandJ",
+		price: 5.0,
+		currency: "EUR",
+		description: "Basic product from BrandJ.",
+	},
+];
